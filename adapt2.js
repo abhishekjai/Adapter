@@ -42,4 +42,5 @@ const user = new User(adapt,Schema);
 user.save(1,'abhishek');
 user.save(2,'jaiswal');
 user.save(3,'rohan');
+user.update(1,new Schema(1,'nambiar'));
 user.show()
